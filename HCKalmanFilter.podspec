@@ -15,7 +15,7 @@ s.author           = { "Hypercubesoft" => "office@hypercubesoft.com" }
 s.source           = { :git => "https://github.com/Hypercubesoft/HCKalmanFilter.git", :tag => "#{s.version}"}
 
 s.ios.deployment_target = "9.0"
-s.source_files = "HCKalmanFilter/*"
+s.source_files = "Sources/HCKalmanFilter/*"
 
 s.dependency 'Surge', '~> 2.0.0'
 
